@@ -18,6 +18,7 @@
             <div class="lg:flex-1 px-1 mb-2">
               <input
                 type="text"
+                name="name"
                 class="w-full rounded-lg p-4 border text-gray-800 border-gray-200"
                 placeholder="山田 太郎"
               />
@@ -25,6 +26,7 @@
             <div class="lg:flex-1 px-1 mb-2">
               <input
                 type="email"
+                name="email"
                 class="w-full rounded-lg p-4 border text-gray-800 border-gray-200"
                 placeholder="your@mail.com"
               />
@@ -32,6 +34,7 @@
           </div>
           <div class="px-1 mb-2">
             <textarea
+              name="content"
               class="w-full rounded-lg p-4 border text-gray-800 border-gray-200"
               col="6"
             />
