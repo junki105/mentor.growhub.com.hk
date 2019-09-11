@@ -80,7 +80,7 @@ export default {
     routes: [
       '/term',
       '/contact/thanks',
-      '/cheeckout/thanks',
+      '/checkout/thanks',
     ]
   }
 }
