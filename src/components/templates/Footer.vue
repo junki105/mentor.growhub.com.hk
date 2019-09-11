@@ -10,9 +10,10 @@
 
         <form
           name="contact"
+          action="/contact/thanks"
           method="post"
           data-netlify="true"
-          action="/contact/thanks"
+          data-netlify-honeypot="bot-field"
         >
           <input type="hidden" name="form-name" value="contact" />
           <div class="flex flex-col lg:flex-row">
