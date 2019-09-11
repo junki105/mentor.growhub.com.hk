@@ -14,6 +14,7 @@
           data-netlify="true"
           action="/contact/thanks"
         >
+          <input type="hidden" name="form-name" value="contact" />
           <div class="flex flex-col lg:flex-row">
             <div class="lg:flex-1 px-1 mb-2">
               <input
