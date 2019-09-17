@@ -121,10 +121,13 @@ export default createComponent({
 
 <style scoped>
 ul.list-menu {
-  @apply inline-flex list-none leading-tight;
+  @apply inline-flex flex-wrap justify-center list-none leading-tight;
+}
+ul.list-menu > li {
+  @apply mb-1;
 }
 ul.list-menu > li:not(:last-child)::after {
-  content: '|';
+  content: '/';
   @apply px-2;
 }
 </style>

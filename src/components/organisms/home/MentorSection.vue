@@ -23,7 +23,8 @@
 import { createComponent, reactive } from '@vue/composition-api'
 import SectionTitle from '~/components/molecules/SectionTitle.vue'
 import MentorPlanCard from '~/components/molecules/MentorPlanCard.vue'
-import { mentorPlans, Plan } from '~/entities/Plan'
+import { Plan } from '~/entities/Plan'
+import mentorPlans from '~/assets/json/mentorPlans.json'
 
 export default createComponent({
   components: {

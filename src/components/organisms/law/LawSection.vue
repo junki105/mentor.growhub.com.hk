@@ -5,8 +5,6 @@
       <div class="container mx-auto py-10 px-4">
         <div class="w-full mx-auto lg:w-2/3">
           <dl>
-            <dt>サービス名</dt>
-            <dd>Programming Support</dd>
             <dt>事業者名</dt>
             <dd>GrowHub Limited</dd>
             <dt>所在地</dt>
