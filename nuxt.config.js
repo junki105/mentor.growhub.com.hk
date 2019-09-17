@@ -57,7 +57,8 @@ export default {
    ** Nuxt.js modules
    */
   modules: [
-    '@nuxtjs/dotenv'
+    '@nuxtjs/dotenv',
+    '@bazzite/nuxt-netlify'
   ],
   /*
    ** Build configuration
@@ -74,6 +75,16 @@ export default {
   dotenv: {
     path: '.',
     filename: '.env'
+  },
+
+  netlify: { 
+    redirects: [
+      {
+        from: '/dummy.html',
+        to: '/',
+        status: 301
+      },
+    ]
   },
 
   generate: {

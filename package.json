@@ -13,6 +13,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "@bazzite/nuxt-netlify": "^0.1.1",
     "@nuxt/typescript-runtime": "^0.1.5",
     "@nuxtjs/dotenv": "^1.4.0",
     "@types/node": "^12.7.5",
