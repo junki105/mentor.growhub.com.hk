@@ -102,6 +102,9 @@
             2. 本サービスに関して紛争が生じた場合には，
             当社の本店所在地を管轄する裁判所を専属的合意管轄とします。
           </p>
+          <p>
+            制定日：2019年9月17日
+          </p>
         </div>
       </div>
     </div>
@@ -121,7 +124,7 @@ export default createComponent({
 
 <style scoped>
 h3 {
-  @apply font-bold text-xl text-gray-900;
+  @apply font-bold text-xl text-gray-900 mb-1;
 }
 p {
   @apply text-gray-800 mb-6;

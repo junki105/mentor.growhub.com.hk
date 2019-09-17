@@ -1,24 +1,21 @@
 <template>
   <div>
     <breadcrumb
-      :breadcrumbs="[
-        { to: '/', label: 'HOME' },
-        { to: '/term', label: 'Term' }
-      ]"
+      :breadcrumbs="[{ to: '/', label: 'HOME' }, { to: '/law', label: 'Law' }]"
     />
-    <term-section />
+    <law-section />
   </div>
 </template>
 
 <script lang="ts">
 import { createComponent } from '@vue/composition-api'
 import Breadcrumb from '~/components/molecules/Breadcrumb.vue'
-import TermSection from '~/components/organisms/term/TermSection.vue'
+import LawSection from '~/components/organisms/law/LawSection.vue'
 
 export default createComponent({
   components: {
     Breadcrumb,
-    TermSection
+    LawSection
   }
 })
 </script>

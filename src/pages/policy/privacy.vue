@@ -3,22 +3,22 @@
     <breadcrumb
       :breadcrumbs="[
         { to: '/', label: 'HOME' },
-        { to: '/term', label: 'Term' }
+        { to: '/policy/privacy', label: 'Privacy Policy' }
       ]"
     />
-    <term-section />
+    <privacy-section />
   </div>
 </template>
 
 <script lang="ts">
 import { createComponent } from '@vue/composition-api'
 import Breadcrumb from '~/components/molecules/Breadcrumb.vue'
-import TermSection from '~/components/organisms/term/TermSection.vue'
+import PrivacySection from '~/components/organisms/policy/PrivacySection.vue'
 
 export default createComponent({
   components: {
     Breadcrumb,
-    TermSection
+    PrivacySection
   }
 })
 </script>

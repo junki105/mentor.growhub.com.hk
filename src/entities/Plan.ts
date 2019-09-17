@@ -12,7 +12,7 @@ export interface Plan {
   items: Array<Item>
 }
 
-export const plans: Array<Plan> = [
+export const mentorPlans: Array<Plan> = [
   {
       id: 1,
       title: '気軽にチャットで相談コース',
@@ -20,7 +20,7 @@ export const plans: Array<Plan> = [
       price: 1000,
       items: [
         {
-          plan: 'plan_Fn1JwWF1ff098f',
+          plan: 'plan_FpCj4xcoU6VP35',
           quantity: 1
         }
       ]
@@ -32,7 +32,7 @@ export const plans: Array<Plan> = [
       price: 3000,
       items: [
         {
-          plan: 'plan_Fn1JHGkqgCpuxU',
+          plan: 'plan_FpClsLgGcta1M7',
           quantity: 1
         }
       ]
@@ -44,7 +44,7 @@ export const plans: Array<Plan> = [
       price: 5000,
       items: [
         {
-          plan: 'plan_Fn1KWvhbnkOjO2',
+          plan: 'plan_FpCmxBeEAjmbOk',
           quantity: 1
         }
       ]

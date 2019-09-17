@@ -22,7 +22,7 @@
                 <input
                   type="text"
                   name="name"
-                  class="w-full rounded-lg p-4 border text-gray-800 border-gray-200"
+                  class="w-full rounded-lg p-4 border text-gray-800"
                   placeholder="山田 太郎"
                 />
               </div>
@@ -30,7 +30,7 @@
                 <input
                   type="email"
                   name="email"
-                  class="w-full rounded-lg p-4 border text-gray-800 border-gray-200"
+                  class="w-full rounded-lg p-4 border text-gray-800"
                   placeholder="your@mail.com"
                 />
               </div>
@@ -38,13 +38,13 @@
             <div class="px-1 mb-2">
               <textarea
                 name="content"
-                class="w-full rounded-lg p-4 border text-gray-800 border-gray-200"
+                class="w-full rounded-lg p-4 border text-gray-800"
                 col="6"
               />
             </div>
             <div class="flex justify-center items-center px-1">
               <button
-                class="w-full py-5 px-2 rounded-lg bg-indigo-700  text-gray-100 font-bold uppercase border-indigo-700 border-t border-b border-r lg:px-4 hover:opacity-75"
+                class="w-full py-5 px-2 rounded-lg bg-indigo-700  text-gray-100 font-bold uppercase border-indigo-700 lg:px-4 hover:opacity-75"
               >
                 Submit
               </button>
@@ -78,14 +78,17 @@
               </nuxt-link>
             </li>
             <li>
-              <a
-                href="https://www.growhub.com.hk/ja/policy/privacy"
+              <nuxt-link
+                to="/policy/privacy"
                 class="my-2 text-white hover:text-gray-300"
-                target="_blank"
-                rel="noopener noreferrer"
               >
                 プライバシーポリシー
-              </a>
+              </nuxt-link>
+            </li>
+            <li>
+              <nuxt-link to="/law" class="my-2 text-white hover:text-gray-300">
+                特定商取引法に基づく表記
+              </nuxt-link>
             </li>
           </ul>
         </div>

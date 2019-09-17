@@ -7,11 +7,11 @@
     <div class="container mx-auto mt-5">
       <div class="flex flex-col lg:flex-row">
         <mentor-plan-card
-          v-for="plan in plans"
+          v-for="plan in mentorPlans"
           :key="plan.id"
           :plan="plan"
           :loading="state.checkoutId === plan.id"
-          class="w-full lg:w-1/3 mx-2 mb-2"
+          class="lg:w-1/3 mx-2 mb-2"
           @checkout="checkout"
         />
       </div>
@@ -23,7 +23,7 @@
 import { createComponent, reactive } from '@vue/composition-api'
 import SectionTitle from '~/components/molecules/SectionTitle.vue'
 import MentorPlanCard from '~/components/molecules/MentorPlanCard.vue'
-import { plans, Plan } from '~/entities/Plan'
+import { mentorPlans, Plan } from '~/entities/Plan'
 
 export default createComponent({
   components: {
@@ -50,7 +50,7 @@ export default createComponent({
     }
     return {
       checkout,
-      plans,
+      mentorPlans,
       state
     }
   }
