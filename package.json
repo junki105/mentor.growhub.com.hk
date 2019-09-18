@@ -1,7 +1,7 @@
 {
-  "name": "Mentor",
+  "name": "mentor",
   "version": "1.0.0",
-  "description": "Mentor",
+  "description": "Programming Mentor Support - Powerd by Growhub",
   "author": "nakanakamu0828",
   "private": true,
   "scripts": {

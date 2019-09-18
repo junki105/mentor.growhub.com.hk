@@ -11,14 +11,14 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: process.env.npm_package_name || '',
+    title: 'Tech Support - Powerd by Growhub',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',
         name: 'description',
-        content: process.env.npm_package_description || ''
+        content: 'メンターとしてプログラミングをサポートしていきます。Web開発をしたい企業やこれからプログラマーを目指す初学者、さらにプログラマーとして成長したい方に向けたサービスです。'
       }
     ],
     link: [
