@@ -6,6 +6,7 @@ export default {
   mode: 'universal',
   env: {
     STRIPE_PUBLISHABLE_KEY: process.env.STRIPE_PUBLISHABLE_KEY,
+    NODE_ENV: process.env.NODE_ENV || 'development'
   },
   /*
    ** Headers of the page
@@ -90,6 +91,9 @@ export default {
   generate: {
     routes: [
       '/term',
+      '/policy/privacy',
+      '/law',
+      '/plan/business/b-d2gj39w4',
       '/contact/thanks',
       '/checkout/thanks',
     ]

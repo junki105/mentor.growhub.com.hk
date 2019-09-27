@@ -34,13 +34,14 @@ export default createComponent({
   setup() {
     const state = reactive({
       checkoutId: 0,
-      key: process.env.STRIPE_PUBLISHABLE_KEY
+      key: process.env.STRIPE_PUBLISHABLE_KEY,
+      environment: process.env.NODE_ENV
     })
     function checkout(plan: Plan) {
       state.checkoutId = plan.id
       try {
         window.Stripe(state.key).redirectToCheckout({
-          items: plan.items,
+          items: plan.items[state.environment],
           successUrl: `${location.origin}/checkout/thanks`,
           cancelUrl: location.href
         })

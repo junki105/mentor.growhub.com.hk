@@ -1,38 +1,65 @@
 [
     {
-        "id": 1,
-        "title": "気軽にチャットで相談コース",
-        "description": "SlackのDMを利用してマンツーマンでサポートします。",
-        "price": 1000,
-        "items": [
+      "id": 1,
+      "slug": "m-d7s9iayx",
+      "title": "気軽にチャットで相談コース",
+      "description": "SlackのDMを利用してマンツーマンでサポートします。",
+      "price": 1000,
+      "items": {
+        "production": [
           {
             "plan": "plan_FpD5RvsIqyZR4p",
             "quantity": 1
           }
+        ],
+        "development": [
+          {
+            "plan": "plan_FpCj4xcoU6VP35",
+            "quantity": 1
+          }
         ]
+      }
     },
     {
-        "id": 2,
-        "title": "一緒にコーディングコース",
-        "description": "定義レビューや分担をした共同作業など一緒に開発を行うことで成長を加速させます。",
-        "price": 3000,
-        "items": [
+      "id": 2,
+      "slug": "m-c6d3etx8",
+      "title": "一緒にコーディングコース",
+      "description": "定義レビューや分担をした共同作業など一緒に開発を行うことで成長を加速させます。",
+      "price": 3000,
+      "items": {
+        "production": [
           {
             "plan": "plan_FpD5jjxBOedg2i",
             "quantity": 1
           }
+        ],
+        "development": [
+          {
+            "plan": "plan_FpClsLgGcta1M7",
+            "quantity": 1
+          }
         ]
+      }
     },
     {
-        "id": 3,
-        "title": "Zoomのテレビ電話を利用した開発サポート・キャリア相談コース",
-        "description": "定義レビューや分担をした共同作業など一緒に開発を行うことで成長を加速させます。",
-        "price": 5000,
-        "items": [
+      "id": 3,
+      "slug": "m-s8z5gy4n",
+      "title": "Zoomのテレビ電話を利用した開発サポート・キャリア相談コース",
+      "description": "定義レビューや分担をした共同作業など一緒に開発を行うことで成長を加速させます。",
+      "price": 5000,
+      "items": {
+        "production": [
           {
             "plan": "plan_FpD6yIL0GvOUJb",
             "quantity": 1
           }
+        ],
+        "development": [
+          {
+            "plan": "plan_FpCmxBeEAjmbOk",
+            "quantity": 1
+          }
         ]
+      }
     }
 ]
