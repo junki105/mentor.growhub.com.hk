@@ -1,23 +1,44 @@
 [
-    {
-      "id": 1,
-      "slug": "b-d2gj39w4",
-      "title": "WEB開発サポート ５万円コース",
-      "description": "企業様のWeb開発をサポートします。開発内容をヒアリングさせて頂き、工数に沿った金額を購入して頂きます。\n本コースは、５万円分の作業工数を利用してWeb開発をサポートしていきます。\n\n主なサポート内容は以下になります。\n・Gitリポジトリを連携したコーディングサポート\n・設計、コードレビュー\n・Zoomを利用したテレビ会議",
-      "price": 50000,
-      "items": {
-        "production": [
-          {
-            "sku": "sku_Ft0sx2bBjud9Yj",
-            "quantity": 1
-          }
-        ],
-        "development": [
-          {
-            "sku": "sku_FsfSR0XPmf0rVJ",
-            "quantity": 1
-          }
-        ]
-      }
+  {
+    "id": 1,
+    "slug": "b-d2gj39w4",
+    "title": "WEB開発サポート ５万円コース",
+    "description": "企業様のWeb開発をサポートします。開発内容をヒアリングさせて頂き、工数に沿った金額を購入して頂きます。\n本コースは、５万円分の作業工数を利用してWeb開発をサポートしていきます。\n\n主なサポート内容は以下になります。\n・Gitリポジトリを連携したコーディングサポート\n・設計、コードレビュー\n・Zoomを利用したテレビ会議",
+    "price": 50000,
+    "items": {
+      "production": [
+        {
+          "sku": "sku_Ft0sx2bBjud9Yj",
+          "quantity": 1
+        }
+      ],
+      "development": [
+        {
+          "sku": "sku_FsfSR0XPmf0rVJ",
+          "quantity": 1
+        }
+      ]
     }
+  },
+  {
+    "id": 2,
+    "slug": "b-2spnamzv",
+    "title": "WEB開発サポート １３万円コース",
+    "description": "企業様のWeb開発をサポートします。開発内容をヒアリングさせて頂き、工数に沿った金額を購入して頂きます。\n本コースは、１３万円分の作業工数を利用してWeb開発をサポートしていきます。\n\n主なサポート内容は以下になります。\n・Gitリポジトリを連携したコーディングサポート\n・設計、コードレビュー\n・Zoomを利用したテレビ会議",
+    "price": 130000,
+    "items": {
+      "production": [
+        {
+          "sku": "sku_GPunjYIqCUt6cP",
+          "quantity": 1
+        }
+      ],
+      "development": [
+        {
+          "sku": "sku_GPuobFJjeHuUCO",
+          "quantity": 1
+        }
+      ]
+    }
+  }
 ]
