@@ -96,6 +96,7 @@ export default {
       '/plan/business/b-d2gj39w4',
       '/plan/business/b-qg7hcfdp',
       '/plan/business/b-2spnamzv',
+      '/plan/business/b-em2vaset',
       '/contact/thanks',
       '/checkout/thanks',
     ]
