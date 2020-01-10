@@ -61,5 +61,26 @@
         }
       ]
     }
+  },
+  {
+    "id": 99,
+    "slug": "b-em2vaset",
+    "title": "GJBリニューアル開発 ２００万円",
+    "description": "ノウハウバンク株式会社様向けのGJBリニューアル開発の請求ページになります。\n開発費、２００万円の支払い処理となります。",
+    "price": 2000000,
+    "items": {
+      "production": [
+        {
+          "sku": "sku_GWNfsEK29KO9Qf",
+          "quantity": 1
+        }
+      ],
+      "development": [
+        {
+          "sku": "sku_GWNWYs8Xem3TUw",
+          "quantity": 1
+        }
+      ]
+    }
   }
 ]
