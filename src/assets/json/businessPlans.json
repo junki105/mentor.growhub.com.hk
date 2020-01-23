@@ -63,11 +63,32 @@
     }
   },
   {
+    "id": 98,
+    "slug": "b-pLmnUENW",
+    "title": "GJBリニューアル開発 ２０万円",
+    "description": "ノウハウバンク株式会社様向けのGJBリニューアル開発の請求ページになります。\n開発費、２０万円の支払い処理となります。",
+    "price": 200000,
+    "items": {
+      "production": [
+        {
+          "sku": "sku_GbEtbEsIc1Fm6f",
+          "quantity": 1
+        }
+      ],
+      "development": [
+        {
+          "sku": "sku_GbExdekwQyA6Ww",
+          "quantity": 1
+        }
+      ]
+    }
+  },
+  {
     "id": 99,
     "slug": "b-em2vaset",
-    "title": "GJBリニューアル開発 ２００万円",
-    "description": "ノウハウバンク株式会社様向けのGJBリニューアル開発の請求ページになります。\n開発費、２００万円の支払い処理となります。",
-    "price": 2000000,
+    "title": "GJBリニューアル開発 １８０万円",
+    "description": "ノウハウバンク株式会社様向けのGJBリニューアル開発の請求ページになります。\n開発費、１８０万円の支払い処理となります。",
+    "price": 1800000,
     "items": {
       "production": [
         {
