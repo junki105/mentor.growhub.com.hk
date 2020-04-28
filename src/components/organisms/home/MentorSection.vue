@@ -7,7 +7,7 @@
     <div class="container mx-auto mt-5">
       <div class="flex flex-col lg:flex-row">
         <mentor-plan-card
-          v-for="plan in mentorPlans"
+          v-for="plan in activeMentorPlans"
           :key="plan.id"
           :plan="plan"
           :loading="state.checkoutId === plan.id"
@@ -37,6 +37,10 @@ export default createComponent({
       key: process.env.STRIPE_PUBLISHABLE_KEY,
       environment: process.env.NODE_ENV
     })
+
+    const activeMentorPlans = mentorPlans.filter((m) => {
+      return m.status === 'active'
+    })
     function checkout(plan: Plan) {
       state.checkoutId = plan.id
       try {
@@ -52,8 +56,8 @@ export default createComponent({
     }
     return {
       checkout,
-      mentorPlans,
-      state
+      state,
+      activeMentorPlans
     }
   }
 })
