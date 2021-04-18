@@ -9,8 +9,7 @@
             <dd>GrowHub Limited</dd>
             <dt>所在地</dt>
             <dd>
-              17/F, Winner Commercial Building, 401-403 Lockhart Road, Causeway
-              Bay, Hong Kong
+              21/F., Kam Fung Commercial Building, 2-4 Tin Lok Lane, Wanchai Hong Kong
             </dd>
             <dt>お支払方法</dt>
             <dd>Stripeを利用したクレジットカード決済によるお支払いが可能</dd>
